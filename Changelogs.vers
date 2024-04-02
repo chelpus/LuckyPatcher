@@ -1,0 +1,1730 @@
+﻿11.2.9
+~ Updated translations;
+~ Fixed bugs.
+
+11.2.8
+~ Updated translations;
+~ Fixed bugs.
+
+11.2.7
+~ Added "Select application file to copy signature" to "Re-sign with original signature for android patch" dialog;
+~ Updated translations;
+~ Fixed bugs.
+
+11.2.6
+~ Added "Signature Info" to "App Info" dialog;
+~ Added "App Info" to menu for files;
+~ Updated translations;
+~ Fixed bugs.
+
+11.2.4
+~ Added auto reinstall for streamed installed apps;
+~ Updated translations.
+
+11.2.3
+~ Updated translations;
+~ Fixed bugs.
+
+11.2.2
+~ Added "Change sharedUserId" for resign with test signature;
+~ Added "Managing the Magisk module for applications";
+~ Updated translations.
+
+11.2.1
+~ Improved stealth of Lucky Patcher;
+~ Updated translations.
+
+11.2.0
+~ Added "Change sharedUserId" for cloning applications;
+~ Fixed cloning for some apps;
+~ Updated translations.
+
+11.1.9
+~ Fixed cloning for some applications
+~ Updated translations.
+
+11.1.8
+~ Fixed rebuild for some large apk files;
+~ Updated translations.
+
+11.1.7
+~ Updated translations.
+
+11.1.6
+~ Updated target SDK to 33 for "Proxy server for Inapp" (for Android 14);
+~ Updated translations.
+
+11.1.5
+~ Fixed app cloninng for Android 14 applications;
+~ Updated translations.
+
+11.1.4
+~ Added a "Set maximum value" button to change the version code;
+
+11.1.3
+~ Fixed editing androidManifest.xml for Android 14 applications;
+~ Updated translations.
+
+11.1.2
+~ Updated translations.
+~ Fixed bugs.
+
+11.1.1
+~ Fixed bug for change build of splitted apks;
+~ Added the ability to change TargetSDK, VersionCode and so on when re-signing with the original signature;
+~ Updated translations.
+
+11.1.0
+~ Added "Change version code" for resign test signature;
+~ Added link to about for site with custom patches;
+~ Updated translations.
+
+11.0.9
+~ Added fixing CRC for xml and arsc files ("Fake a modified APK archive from the original").
+
+11.0.8
+~ Improve custom patch engine for replace native methods;
+~ Updated translations.
+
+11.0.7
+~ Added installer option "--bypass-low-target-sdk-block" for Android 14 and apps with target sdk<23;
+~ Updated translations.
+
+11.0.6
+~ Fixed android patches for old androids;
+~ Added change app name, minSDK, targetSDK, compileSDK for resign test signature;
+~ Updated translations;
+~ Fixed bugs.
+
+11.0.4
+~ Added change app name for clone of apps;
+~ Updated translations;
+~ Fixed bugs.
+
+11.0.2
+~ Updated translations;
+~ Fixed bugs.
+
+11.0.1
+~ Fixed bug to modded Google Play 37.5.24 (reinstall needed);
+~ Updated translations.
+
+11.0.0
+~ Added new tags for custom patches engine:
+	[use_signature_verification_killer]
+	[use_dex_and_signature_verification_killer]
+	[use_fake_modified_apk_archive]
+	[integrate_inapp_lvl_emulation];
+~ Updated help for custom patch;
+~ Updated translations;
+~ Fixed bugs.
+
+10.9.9
+~ Updated translations;
+~ Fixed bugs.
+
+10.9.8
+~ Updated translations;
+~ Fixed bugs.
+
+10.9.7
+~ Fixed bugs for "Fake a modified APK archive from the original".
+
+10.9.6
+~ Improve more stable Android Patches for Android 13;
+~ Improve "Fake a modified APK archive from the original";
+~ Improve "Signature verification killer" for some apps;
+~ Updated translations;
+~ Fixed bugs.
+
+10.9.5
+~ Added apkm format support;
+~ Updated translations.
+
+10.9.4
+~ Fixed bugs;
+~ Updated translations.
+
+10.9.3
+~ Updated modded Google Play to 37.5.24;
+~ Updated translations.
+
+10.9.2
+~ Fixed custom patch engine for "method name" patch;
+~ Updated translations.
+
+10.9.1
+~ Added button "Select original apk" for option "Fake a modified APK archive from the original" to dialog "Re-sign with test signature";
+~ Fixed custom patch engine for "method name" patch;
+~ Updated translations.
+
+10.9.0
+~ Added option "Forcefully turn off the option Use magisk module";
+~ Updated translations.
+
+10.8.9
+~ Improve dex patch for license verification v3;
+~ Updated translations.
+
+10.8.8
+~ Added "Fake a modified APK archive from the original";
+~ Improve emulation for license verification v3;
+~ Updated translations.
+
+10.8.7
+~ Improve installer menu for apks;
+~ Updated translations.
+
+10.8.6
+~ Added message for downgarde Google Play version;
+~ Updated translations.
+
+10.8.5
+~ Improve modded GooglePlay installer;
+~ Updated translations.
+
+10.8.4
+~ Improve custom patch engine: tag [COPY_FILE] work for non-root users;
+~ Updated translations.
+
+10.8.3
+~ Improve custom patch engine: tag [SHARED-PREFERENCES] work for non-root users;
+~ Updated translations.
+
+10.8.2
+~ Updated translations.
+
+10.8.1
+~ Fixed OutOfMemory on rebuild dex files for some apps;
+
+10.8.0
+~ Fixed bug to custom patch engine;
+~ Updated translations.
+
+10.7.9
+~ Added method patch for custom patch engine for tag [CLASSES] (Read more in the help for custom patches: "method name","class name","parameter types","return type");
+~ Updated translations.
+
+10.7.8
+~ Fixed FC for custom patches engines;
+~ Updated translations.
+
+10.7.7
+~ Fixed integration updates for some apps.
+
+10.7.6
+~ Fixed "Create a license for an application" fixed for android 13;
+~ Fixed integration updates for some apps;
+~ Updated translations.
+
+10.7.5
+~ Fixed delete empty backups folder;
+~ Added group operation "Backup app settings for seleted apps";
+~ Updated translations;
+~ Fixed bugs;
+
+10.7.4
+~ Fixed sorting by time for backups;
+~ Updated translations.
+
+10.7.3
+~ Added icon for "backup app settings";
+~ Added app name file for "backup app settings";
+~ Updated translations.
+
+10.7.2
+~ Added icon for desktop (for random name).
+
+10.7.1
+~ Updated translations;
+~ Fixed Bugs.
+
+10.6.9
+~ Fixed android patches (on magisk armv7a) for Android 13;
+~ Updated translations.
+
+10.6.8
+~ Fixed patch for emulation;
+~ Updated translations.
+
+10.6.7
+~ Updated translations.
+
+10.6.6
+~ Fixed bug for select rebuild apk;
+~ Updated translations.
+
+10.6.5
+~ Updated xposed module for Android 12;
+~ Updated android patches for Android 12.
+
+10.6.4
+~ Added option "use random name" for update LP;
+~ Updated translations.
+
+10.6.3
+~ Fixed bag for rebuild splitted apps;
+~ Added inatllation option for LP "Use random app name for installation";
+~ Updated proxy server for Google Play.
+~ Refactoring code for Android patches;
+~ Updated translations.
+
+10.6.1
+~ Fixed bag for rebuild splitted apps;
+~ Fixed proxy server for Google Play for new GP;
+~ Added detailed errors for no root split installer;
+~ Added option installer selector for apk files (non root);
+~ Updated translations.
+
+10.5.9.
+~ Fixed create clone for splited apps;
+~ Updated translations.
+
+10.5.8
+~ Fixed dex patch for some apps;
+
+10.5.7
+~ Resign with original signature Proxy server for Google Play;
+
+10.5.6
+~ Fixed root patch for libs for splitted apks;
+~ Fixed xposed patch for Android 9;
+~ Updated translations.
+
+10.5.5
+~ Fixed rebuilt patch for libs for splitted apks;
+~ Fixed clone for splitted apks;
+
+10.5.4
+~ Fixed bug for android patches for some firmwares;
+~ Added button "Remove magisk module" to android patches dialog;
+~ Updated translations.
+
+10.5.2
+~ Added removing magisk module for Android Patches after update firmware;
+~ Added option for disable removing magisk module for Android patches;
+~ Update android patches (on magisk) for Android 13;
+~ Updated translations;
+~ Fixed Bugs.
+
+10.5.1
+~ Updated android patches (on xposed) for Android 13;
+~ Update android patches (on magisk) for Android 13;
+~ Updated translations;
+~ Fixed Bugs.
+
+10.5.0
+~ Updated android patches (on xposed) for Android 13;
+~ Updated translations;
+~ Fixed Bugs.
+
+10.4.9
+~ Fixed show message for group operation of "Integrate update to /system";
+~ Updated translations.
+
+10.4.8
+~ Fixed force close for android 4;
+~ Updated translations.
+
+10.4.7
+~ Fixed Bugs;
+~ Updated translations.
+
+10.4.4
+~ Fix root patch for rebuild dex.
+
+10.4.2
+~ Fix rebuild dex for some apps;
+~ Updated translations. 
+
+10.4.1
+~ Added option "Re-sign with original signature for android patch" for rebuilt apps.
+
+10.4.0
+~ Fixed bug for "Removes integrity check and signature verification" for some apps.
+
+10.3.8
+~ Fixed force close "Removes integrity check and signature verification" for some apps;
+~ Updated translations. 
+
+10.3.7
+~ Fixed force close "Signature verification killer" and "Removes integrity check and signature verification" for Android 13;
+~ Updated translations. 
+
+10.3.6
+~ Update license patch algorithm;
+~ Update emulation license verification;
+~ Updated translations. 
+
+10.3.5
+~ Added File observer service to "Tools" (for get stored uncrypted files dex, so, zip);
+~ Updated translations.
+
+10.3.4
+~ Updated Modded GooglePlay to 33.0.16;
+~ Updated translations.
+
+10.3.3
+~ Fixed Bugs;
+~ Updated translations.
+
+10.3.2
+~ Updated api for inapp emulation.
+
+10.3.1
+~ Fixed Bugs.
+
+10.3.0
+~ Fixed verification for "Proxy Server for Google Play" enabled;
+~ Updated translations.
+
+10.2.9
+~ Updated translations.
+
+10.2.8
+~ Fixed resign with original signature for apps without signature v1;
+~ Updated translations.
+
+10.2.7
+~ Fixed bug for custom pacthes engine;
+~ Updated translations.
+
+10.2.6
+~ Added button "Manual path" to "Change Directory";
+~ Updated translations.
+
+10.2.5
+~ Updated translations.
+
+10.2.4
+~ Fixed bug for signature verification killer;
+~ Fixed decompilation for dex039;
+~ Fixed Bugs.
+
+10.2.3
+~ Updated translations;
+~ Fixed Bugs.
+
+10.2.2
+~ Updated translations;
+~ Fixed Bugs.
+
+10.2.1
+~ Updated translations;
+~ Fixed Bugs.
+
+10.2.0
+~ Fixed message for groupe integrate updates to /system;
+~ Updated translations.
+
+10.1.9
+~ Updated translations;
+~ Fixed Bugs;
+
+10.1.8
+~ Fixed Integrate updates to /product, /vendor, /system_ext;
+~ Fixed read parameters for data packups;
+~ Fixed write parameters for data backups;
+~ Added icon for unknown apps for backups dialog;
+~ Fixed integrate updates for splitted apps; 
+~ Updated translations;
+~ Fixed Bugs;
+
+10.1.7
+~ Updated translations;
+~ Fixed Bugs;
+
+10.1.6
+~ Fixed android patches for x86-64 arсhitecture;
+~ Updated translations.
+
+10.1.5
+~ Fixed magisk module algorithm;
+~ Updated translations.
+
+10.1.4
+~ Reworked troubleshooting menu;
+~ Fixed Bugs;
+
+10.1.3
+~ Fixed Bugs;
+~ Updated translations.
+
+10.1.2
+~ Fixed Bugs;
+~ Updated translations.
+
+10.1.0
+~ Added folder selector to settings;
+~ Updated translations.
+
+10.0.9
+~ Fixed Bugs.
+
+10.0.8
+~ Fixed force close for android 5-;
+~ Updated translations;
+~ Fixed Bugs.
+
+10.0.7
+~ Removed Startapp ads.
+
+10.0.6
+~ Fixed sorting for buckups list to menu;
+~ Updated translations.
+
+10.0.5
+~ Added sorting settings for backups dialog;
+~ Added date for backups items;
+~ Updated translations.
+
+10.0.4
+~ Fixed all apps moved to /system for android 4;
+~ Fixed Bugs.
+
+10.0.3
+~ Updated translations;
+~ Fixed Bugs.
+
+10.0.2
+~ Improved "Backup App settings";
+~ Added "Reset all dialog settings" to settings;
+~ Updated translations;
+~ Fixed Bugs.
+
+10.0.1
+~ Added busybox from magisk to Lucky Patcher;
+~ Optimized inapp emulation;
+~ Updated translations;
+~ Fixed Bugs.
+
+10.0.0
+~ Added modded Google Play 29.3.14;
+~ Fixed proxy server for Google Play for new GP;
+~ Updated translations.
+
+9.9.9
+~ Updated sdk;
+~ Updated translations.
+
+9.9.8
+~ Improved original signature for DSA;
+~ Updated translations.
+
+9.9.7
+~ Updated translations;
+~ Fixed Bugs.
+
+9.9.6
+~ Fixed autoupdate for android 4.3-.
+
+9.9.5
+~ Reworked "Install system app for user";
+~ Added ads to progress dialog for patches;
+~ Fixed bug for android 4.1-;
+~ Updated translations.
+
+9.9.3
+~ Added "Uninstall system app for user" for system apps;
+~ Added "Install system app for user";
+~ Updated translations.
+
+9.9.2
+~ Added "Uninstall updates" for system apps;
+~ Added "Use the magisk module" for "Delete system app";
+~ Updated translations.
+
+9.9.1
+~ Fixed rebuild dex for some apps;
+~ Updated translations.
+
+9.9.0
+~ Fixed root installer for apks;
+~ Fixed get signatures v2 for Signature verification killer;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.9
+~ Magisk option reworked (does not turn on if there is no magisk module);
+~ Updated translations.
+
+9.8.8
+~ Added function "Convert application to system";
+~ Fixed bug for delete system apps;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.7
+~ Added tag [DELETE_FOLDER_IN_APK] for custom patch engine;
+~ Fixed bug for hosts file;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.6
+~ Updated custom patches engine for working two apk_build (interval versions);
+~ Updated custom patches help;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.5
+~ Fixed android patches for any firmwares;
+~ Fixed restoring data for apps on android 12;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.4
+~ Added tag [LIB-X86_64] for libs patching;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.3
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.2
+~ Updated translations;
+~ Fixed Bugs.
+
+9.8.1
+~ Fixed oat cache patching for android 12;
+~ Updated translations.
+
+9.8.0
+~ Fixed rebuild dex for some apps;
+~ Fixed custom patches engine for [insert] tag;
+~ Updated translations.
+
+9.7.9
+~ Fixed patches for apps on Android 12;
+~ Updated translations.
+
+9.7.8
+~ Added back modded Google Play 24.0.32;
+~ Fixed bug for proxy for Google Play; 
+~ Updated translations;
+~ Fixed Bugs.
+
+9.7.7
+~ Update modded Google Play to 27.6.18;
+~ Updated translations.
+
+9.7.6
+~ Updated translations;
+~ Fixed data size for apps info dialog.
+
+9.7.5
+~ Updated translations;
+~ Fixed custom patch engine.
+
+9.7.4
+~ Updated translations;
+~ Fixed Bugs.
+
+9.7.3
+~ Refactoring of the code;
+~ Changed package name for installer;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.7.2
+~ Updated translations;
+~ Fixed Bugs.
+
+9.7.1
+~ Exclude google services for automate integrate updates to /system;
+~ Added dialog for finish "integrate updates to /system" after reboot;
+~ Updated translations.
+
+9.7.0
+~ Rework "integrate update to /system" for save app data? but need reboot after integrate;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.6.9
+~ Added a message to solve the problem of force closing;
+~ Updated translations.
+
+9.6.7
+~ Fixed xposed module for "Hide LP";
+~ Reworked "Support patch for Inapp and LVL" (xposed module);
+~ Updated translations.
+
+9.6.6
+~ Fixed proxy server for Google Play for new Store;
+~ Fixed show magisk options for mod market installer;
+~ Updated translations.
+
+9.6.5
+~ Fixed dex rebuild methods for some apps;
+~ Updated translations.
+
+9.6.4
+~ Fixed xposed module for some firmwares;
+~ Updated translations.
+
+9.6.3
+~ Fixed proxy server for Google Play for new Store;
+~ Added scoped xposed settings for LSPOSED;
+~ Changed package name for installer;
+~ Added "split apllications" filter for "Search"->"Advanced".
+
+9.6.2
+~ Fixed install systrm apps for android 7-;
+~ Fixed read xposed settings for LSPOSED;
+~ Fixed proxy server for Google Play for new Store;
+~ Updated appcompat library;
+~ Updated material library;
+~ Fixed Bugs.
+
+9.6.1
+~ Updated translations;
+~ Fixed Bugs.
+
+9.6.0
+~ Fixed resign with original signature for android 7- firmwares (exclude signature scheme v2);
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.9
+~ Removed deprecated switches;
+~ Improve Xapk installer (copy obb files for android 11 with root access);
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.8
+~ Fixed install as system app from sdcard (added remount to rw for system partition);
+~ Fixed magisk option test;
+~ Added "xapk installer" (alpha version);
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.7
+~ Improve "Support patch for LVL and Inapp emulation";
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.6
+~ Improve signature verification killer;
+~ Fixed bug "Support patch for LVL and Inapp emulation";
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.5
+~ Fixed bug for inapp purchases emulation;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.4
+~ Added new method for remove license verification - Auto Mode (dex);
+~ Updated help;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.3
+~ Deleted unused resources;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.5.2
+~ Improve "Support patch for LVL and Inapp emulation";
+~ Fixed Hungarian language;
+
+9.5.1
+~ Improve signature verification killer;
+~ Support patch for LVL emulation fixed;
+~ Updated translations;
+~ Fixed Bugs.
+
+
+9.5.0
+~ Fixed checksum verification remover;
+
+9.4.8
+~ Added: checksum verification remover;
+~ Improve signature verification killer; 
+~ Updated help;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.4.7
+~ Added: Signature verification killer by Bin; 
+~ Updated help;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.4.6
+~ Fixed: help crash; 
+~ Updated translations.
+
+9.4.5
+~ Fixed: set selected language more stable; 
+~ Updated help;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.4.4
+~ Fixed: When move in the /systems or install, a permission file is now created to prevent bootlaps on some firmwares; 
+~ Updated translations;
+~ Fixed Bugs.
+
+9.4.3
+~ Changed package name for installer;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.4.2
+~ Fixed bug for self update for some firmwares.
+
+9.4.1
+~ Updated translations;
+~ Fixed Bugs.
+
+9.4.0
+~ Speed up start (chenged compression for icon from PNG to WEBP);
+~ Fixed update custom patches;
+~ Updated translations.
+
+9.3.8
+~ Fixed bootloop after patches to apps (for some android 11 devices);
+~ Try fix force close IllegalStateException.
+
+9.3.6
+~ Speedup clone for apps creator;
+~ Fixed bug for androidmanifest information read;
+~ Fixed update integration to system partition for splitted apps;
+~ Updated translations.
+
+9.3.5
+~ Added new modded Google Play 24.0.32 (for android 4.1+);
+~ Fixed crash some apps after remove ads patch;
+~ Added auto-set option to use magisk module for move applications to the system partition.
+
+9.3.4
+~ Changed package name for installer;
+~ Fixed modded Google Play 23 for work without inapp emulation;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.3.3
+~ Fixed force close for IllegalStateException.
+
+9.3.2
+~ Fixed file copy for custom patches engine.
+
+9.3.1
+~ Added new modded Google Play 23.8.24-21;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.3.0
+~ Fixed force close for ConcurrentModificationException;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.2.9
+~ Move custom patches to new folder CustomPatches;
+~ Changed result dialog for root installer;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.2.8
+~ SpeedUp start for Lucky Patcher;
+~ Reworked busybox detection;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.2.7
+~ Updated translations;
+~ Fixed Bugs.
+
+9.2.6
+~ Fixed root installer for apks files;
+~ Updated translations.
+
+9.2.5
+~ Fixed force close for launch button;
+~ Updated translations.
+
+9.2.4
+~ Fixed show dialog for restore data for apps.
+
+9.2.3
+~ Fixed Android patches to some fiemwares on Android 10.
+
+9.2.2
+~ Try fix bad restore patches android;
+~ Updated translations.
+
+9.2.1
+~ added permission for re-signing debuggable applications.
+
+9.2.0
+~ Fixed bugs to rebuild and clone apk;
+~ Updated translations.
+
+9.1.9
+~ Fixed bugs to modded Gooogle Play 20.4.13;
+~ Fixed bugs for android patches;
+~ Updated translations.
+
+9.1.8
+~ Fixed bug of patch engine;
+~ Fixed modded Google Play install as user app;
+~ Updated translations.
+
+9.1.7
+~ Removed association with apk from external storages;
+~ Fixed blink progress dialogue;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.1.5
+~ Fixed scan apk files from storage;
+~ Fixed resign with original signature for DSA cert;
+~ Changed default action for open from external file manager;
+~ Fixed download files for external links;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.1.4
+~ Fixed show app name for installer;
+~ Integrated sdk for read app name from external apk (for Android 11);
+~ Fixed install some apps to system;
+~ Added resign with original signature scheme v2;
+~ Speedup code for installer;
+~ Added installer for apk from external file explorer;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.1.2
+~ Fixed critical bug for resign on Android 4.3- (if you cannot update lucky patcher, try download new version from https://luckypatchers.com/download and install manually ~so so sorry~);
+~ Speedup custom patches engine;
+~ Fixed Bugs.
+
+9.1.1
+~ Added new patch to "Disable signature verification in the package manager" - allows installation of applications without signature v2 and tagetSDK = 30;
+~ Resigning applications now with signature version 2;
+~ Updated android patches for some android 11 firmwares;
+~ Updated patch engine;
+~ SpeedUp patch process;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.1.0
+~ Fixed force close fro samsung firmwares after long press to text editor;
+~ Added "Re-sign with original signature for android patch";
+~ Added permission MANAGE_EXTERNAL_STORAGE for android 11;
+~ Updated translations;
+~ Fixed Bugs.
+
+9.0.9
+~ Fixed custom patch engine.
+
+9.0.8
+~ Fixed android patches for some samsung firmwares;
+~ Fixed android patches for Android 11 (LineageOs 18 tested);
+~ Updated translations;
+~ Fixed Bugs.
+
+9.0.7
+~ Fixed detection magisk for android 11;
+~ Fixed android patch "Disable signature verification in the package manager" (for Android 11 - on LineageOs 18 tested);
+~ Updated translations.
+
+9.0.6
+~ Fixed FC after delete file;
+~ Updated translations.
+
+9.0.5
+~ Added pause for Uninstall and Install for more stable;
+~ Fixed first scan apps for some firmwares;
+~ Open magisk module for android 6+;
+~ Added settings for file browser;
+~ Added sort settings for file browser;
+~ Updated translations.
+
+9.0.4
+~ Fixed Force close for some apps after remove ads;
+~ Updated patterns for remove ads;
+~ Updated translations.
+
+9.0.3
+~ Added icon to home screen android tv;
+~ Fixed key navigation to file browser for android tv;
+~ Updated translations.
+
+9.0.2
+~ Fixed android patches for some firmwares;
+~ Updated translations.
+
+9.0.1
+~ Fixed apks installer for some firmwares;
+~ Updated translations.
+
+9.0.0
+~ Added settings option for APKS Installer (root or non-root mode for intsaller);
+~ Added dialog for reboot after android patches;
+~ Updated translations;
+~ Fixed Bugs.
+
+8.9.9
+~ Fix android patches for some firmwares;
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.8
+~ Test for services.jar patches added;
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.7
+~ Fix magisk option for Android patched;
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.6
+~ Fix install apps to system for some firmwares;
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.5
+~ Option "Turn off Google Ads services" added again;
+~ Update Android Patches for old CM firmwares;
+~ Inapp billing emulation optimized;
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.4
+~ Added option "Use the Magisk module to apply the patch" to Android Patches;
+~ Added option "Use the magisk module" to "Install as ssystem app";
+~ Added option "Use the magisk module" to "Move to /system/app";
+~ Added option "Use the magisk module" to "Install modded Google Play";
+~ Fix bug to Android Patches for some firmwares;
+~ Reworked Android Patches dialog;
+~ Reworked install as system app;
+~ Reworked move app to system;
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.3
+~ Added option to clear data Google services during installation of modified Google Play (for fix login to google accaunt after install modded Google Play);
+~ "Proxy server for GooglePlay" fixed for last Google Play;
+~ Automatic purchase sorter improved;
+~ "Purchases sorter" in "Tools" added (Needed for games written in Unity. Can help you get your purchase for free.);
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.2
+~ Package Name for installer changed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.1
+~ Translations updated;
+~ Bugs fixed.
+
+8.9.0
+~ Translations updated;
+~ Bugs fixed.
+
+8.8.9
+~ Reduce apk size;
+~ Translations updated;
+~ Bugs fixed.
+
+8.8.8
+~ Uninstall system apps for some firmwares fixed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.8.7
+~ Reduce apk size;
+~ Bugs fixed.
+
+8.8.6
+~ Translations updated;
+~ Bugs fixed.
+
+8.8.5
+~ Uninstall for apps on Android P fixed.
+
+8.8.4
+~ Google bug for Android 8 fixed;
+
+8.8.3
+~ Change target api to 28;
+~ Update google libraries to Androidx;
+~ Translations updated.
+
+8.8.2
+~ Translations updated;
+~ Bugs fixed.
+
+8.8.1
+~ Update ads sdk and try fix Force Close;
+~ Translations updated;
+~ Bugs fixed.
+
+8.8.0
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.9
+~ New version modded Google Play 20.4.13 added;
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.8
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.7
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.6
+~ Add new function to custom patch engine (+ or - decimal number from original byte);
+~ Update custom patch help;
+~ Move backups scan processs to background thread;
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.5
+~ Fix install apks files from SAI;
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.4
+~ Try fix FC for android api<24;
+
+8.7.3
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.2
+~ Interface for restoring backups reworked;
+~ Allowed to backup system applications;
+~ Translations updated;
+~ Bugs fixed.
+
+8.7.1
+~ Fix android patches for android 10;
+~ Translations updated.
+~ Bugs fixed;
+
+8.7.0
+~ Update help for custom patch(Russian);
+~ Translations updated.
+~ Bugs fixed;
+
+8.6.9
+~ Refactoring code (add icons of Lucky Patcher to desktop again);
+~ Update patterns for "Support patch for InApp and LVL emulation";
+~ Translations updated.
+~ Bugs fixed;
+
+8.6.8
+~ New tags fro custom patches engine added([DELETE_FILE_IN_APK],[RENAME_FILE_IN_APK],[ADD_FILE_IN_APK]);
+~ Help for custom patches updated([DELETE_FILE_IN_APK],[RENAME_FILE_IN_APK],[ADD_FILE_IN_APK]);
+~ Translations updated.
+
+8.6.7
+~ "Remove ads" patch reworked for more stable;
+~ Translations updated.
+
+8.6.6
+~ Fix bug to "Support patch for InApp emulation (Reassembly Dex)";
+~ Translations updated.
+
+8.6.5
+~ Fix install for "Proxy server for inapp emulation";
+~ Translations updated.
+
+8.6.4
+~ New method for patch inapp purchases (Support patch for InApp emulation (Reassembly Dex));
+~ Optimize ads patterns for more stable patch process;
+~ Supprot for GooglePlay Inapp Library (api 10) added;
+~ New link to site about added custom patches(patch.chelpus.com);
+~ New link to submit custom patches(https://patch.chelpus.com/submit);
+~ Added "Share" button to backups dialog;
+~ Translations updated.
+
+8.6.3
+~ Bug to custom patches engine fixed;
+~ Translations updated.
+
+8.6.2
+~ Try fix bugs for ads sdk;
+~ Translations updated.
+
+8.6.1
+~ Bugs fixed;
+~ Translations updated.
+
+8.6.0
+~ Fix /system partition remount for magisk 20;
+~ Translations updated.
+
+8.5.9
+~ Fix xposed module for inapp;
+~ Translations updated.
+
+8.5.8
+~ Adaptation of the xposed module for virtual xposed;
+~ Repaired auto-repeat purchase;
+~ Rework code for redirect inapp billing in xposed module;
+~ Ads added (You can disable in the settings of Lucky Patcher);
+~ READ_PHONE_STATE permission added for ads personification;
+~ Translations updated.
+
+8.5.7
+~ Fix for patch Android 10;
+~ Refactoring for patch to Android;
+~ Translations updated.
+
+8.5.6
+~ Fix proxy server for Google Play (for last version GP);
+~ More info about apk for install added;
+~ Modded Google Play 16.5.15 fixed (need reinstall);
+~ Translations updated.
+
+8.5.5
+~ Modded Google Play 16.5.15 added;
+~ Translations updated.
+
+8.5.4
+~ Translations updated;
+~ Bugs fixed.
+
+8.5.3
+~ Remove timeout for install apks;
+~ Force set method for run java-root code to settings added;
+~ Translations updated.
+
+8.5.2
+~ Fix patch on Android 9 for some apps;
+~ Translations updated.
+
+8.5.1
+~ Request root permission for some firmwares fixed.
+
+8.5.0
+~ Translations updated;
+~ Bugs fixed.
+
+8.4.9
+~ Bugs fixed.
+
+8.4.8
+~ Fix bugs for Bluestacks 4;
+~ Translations updated;
+~ Bugs fixed.
+
+8.4.7
+~ Fix black screen for some firmwares;
+~ Translations updated.
+
+8.4.6
+~ Fix removing patches for android 9 splitted apps after reboot.
+
+8.4.5
+~ Fix android patches for some firmwares;
+~ Translations updated.
+
+8.4.4
+~ Change permission for system apps without classes.dex fixed;
+~ Translations updated.
+
+8.4.3
+~ Add "classes_name" for custom patches engine - apply patch only for one classes.dex file;
+~ Gradle version changed for fix bootloop on some firmwares;
+~ Fix "Change Permissions and Activities\nSave original Signature (Safe method)" for splitted apps;
+~ Add "Reboot to bootloader" and "Rebot to recovery";
+~ Show keyboard for search;
+~ Translations updated;
+~ Bugs fixed.
+
+8.4.1
+~ Add icon for splitted apk to app list;
+~ Translations updated.
+
+8.4.0
+~ Fix xposed "Support patch for inapp and lvl emulation";
+~ Fix xposed "Disable signature verification in package manager" for android 9;
+~ Zipalign for resign added;
+~ Translations updated.
+
+8.3.9
+~ Fix xposed "Support patch for inapp and lvl emulation";
+~ Fix xposed "Disable signature verification in package manager" for downgarde apps;
+~ Add move to sd card for splitted apk;
+~ Add move to Internal storage for splitted apk;
+~ Add resign for splitted apk;
+~ Add reinstall for splitted apk;
+~ Add move to system partition for splitted apk;
+~ Add integrate updates to system partition for splitted apk;
+~ Translations updated.
+
+8.3.8
+~ Fix clone apps for some apps;
+~ Support "Clone Application" for splitted apps;
+~ Fix xposed "Disable signature verification in the package manager" for android 9;
+~ Translations updated.
+
+8.3.7
+~ Fix support for files with "apks" extension from other apps;
+~ Support for "Apk with changed Permissions and Activities";
+~ Translations updated.
+
+8.3.6
+~ FC for rebuild apk file fixed;
+~ Charset for apks files fixed;
+
+8.3.4
+~ Support for splitted apk added (beta version);
+~ Rebuild for splitted apk for some functions added;
+~ Share Lucky Patcher to side menu added;
+~ Support for file with extension ".apks";
+~ New method for zip align  added (big tnx to "Bin@binmt.cc");
+~ Backup and restore for splitted apps added;
+~ Auto backup for splitted apps added;
+~ Root and rootless install for "apks" files and splitted apps added;
+~ And a lot of new bugs added:) 
+
+
+8.3.3
+~ Menu button fixed for new google sdk;
+
+8.3.2
+~ Minimum sdk api set to 14 for update libraries;
+~ Fixed notifications for android 8+;
+~ Translations updated;
+~ Bugs fixed.
+
+8.3.1
+~ Modded Google Play updated to 14.5.52;
+~ Translations updated;
+~ Bugs fixed.
+
+8.3.0
+~ Translations updated;
+~ Bugs fixed.
+
+8.2.9
+~ Added recommendations for installing the 13th version of modded Google Play;
+~ Translations updated;
+
+8.2.8.1
+~ Bugs fixed.
+
+8.2.7
+~ BroadcasrReceivers for Android 8+ fixed;
+~ Translations updated.
+
+8.2.6
+~ Proxy server for new Google Play fixed.
+
+8.2.5
+~ Patch to android for arm fixed;
+~ "Disable signature verification in the package manager" for android 9 fixed;
+~ Changelog save fixed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.2.4
+~ Root install for android 9 fixed;
+~ Custom patches import fixed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.2.3
+~ Force close fixed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.2.2
+~ Update host fixed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.2.1
+~ Open Navigation bar with menu button;
+~ Navigation bar reworked;
+~ Remove root access for installation process;
+~ Installation for non root reworked;
+~ Bottom toolbar added;
+~ Show languages to settings fixed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.1.9
+~ Fix autoupdate bug;
+~ FC fixed;
+~ Translations updated;
+~ Bugs fixed.
+
+8.1.7
+~ "Open to GooglePlay" for selected app added;
+~ Proxy server for Google Play fixed;
+~ Bugs fixed.
+
+8.1.6
+~ Proxy server for License verification added;
+~ Update "Support patch for Inapp and LVL" for proxy server for license verification;
+~ Add option "Update patch in already patched application" to "Support patch for Inapp and LVL";
+~ Proxy server for Google Play fixed;
+~ AppCompat integrated;
+~ Bugs fixed;
+~ Translations updated.
+
+8.1.4
+~ Bug to "Uninstall and Install" for android 9 fixed;
+~ Translations updated.
+
+8.1.3
+~ Bug to inapp emulation fixed;
+~ Translations updated.
+
+8.1.2
+~ Return minSDK to 9;
+~ Modded Google Play updated to 13.1.32;
+~ Translations updated.
+
+8.1.1
+~ The problem of resetting patches after a reboot on android 9 is solved;
+~ The problem with the application of patches for android 9 is solved.;
+~ Translations updated.
+
+8.1.0
+~ Bug of filtering fixed;
+~ Test for patch to android fixed;
+~ Translations updated.
+
+8.0.9
+~ Ads removed.
+
+8.0.7
+~ Force close for French translation fixed.
+
+8.0.6
+~ Share app fixed;
+~ Translations updated.
+
+8.0.5
+~ Permissions request for android 6+ added;
+~ Try fix installation from external storage;
+~ Translations updated.
+
+8.0.2
+~ Permission android.permission.REQUEST_INSTALL_PACKAGES added;
+~ Show installing dialog for some devices fixed;
+~ Set minSDK to 14+ (android 4.0+);
+~ Sort by name fixed;
+~ Translations updated.
+
+8.0.0
+~ Random package name for all users added;
+~ Proxy server for Support patch to InApp and LVL emulation added;
+~ Help about emulation for inapp purchases updated;
+~ Android patches updated;
+~ Sorting by status fixed;
+~ Translations updated.
+
+7.6.1
+~ Preparation of migration to Lucky Patcher 8.
+
+7.6.0
+- Video ads removed;
+- Auto update for some devices fixed.
+
+7.5.9
+- Proxy server for Google Play updated;
+- Translations updated;
+- Bug's fixed.
+
+7.5.8
+- Bug to "Integrate updates to system" fixed;
+- Translations updated.
+
+7.5.7
+- Warning for Apps compiled with Android App Bundle added;
+- Translations updated.
+
+7.5.6
+- Bug to "support patch for Inapp purchases" fixed;
+- Translations updated.
+
+7.5.5
+- Offset type patch added to custom patch engine;
+- Help for custom patch updated;
+- Translations updated;
+- Bugs fixed.
+
+7.5.4
+- Auto update for root users reworked;
+- Translations updated;
+- Bugs fixed.
+
+7.5.3
+- Bug to [SHARED-PREFERENCES] fixed;
+- New tag [BLOCK HOSTS] for custom patches added;
+- Help for custom patches updated;
+- Added the ability to write comments in the custom patch file "//";
+- Translations updated.
+
+7.5.2
+- "Disable components pm disable method" changed (final apply button);
+- Widget for Proxy server of GooglePlay fixed;
+- Translations updated.
+
+7.5.1
+- New tag [PATCH ALL FILES] added;
+- Help for custom patches updated;
+- Translations updated.
+
+7.5.0
+- New host for updates added;
+- Install original Google Play 12 fixed;
+- Proxy server for Google Play fixed;
+- Analytical service added (works only when wifi + charging is on);
+- Translations updated.
+
+7.4.9
+- Rebuilt apk for greater stability;
+- Translations updated.
+
+7.4.8
+- Mod Market to Google Play 12.2.13 updated;
+- Translations updated;
+- Bugs fixed;
+
+7.4.7
+- Update android patches for some arm firmwares.
+
+7.4.6
+- Warning for chinese MIUI devices added.
+
+7.4.5
+- Bugs fixed.
+
+7.4.4
+- Add plagiarism list for custom patches (removal of stolen patches);
+- Translations updated.
+
+7.4.3
+- Modded Google Play 11.8.09 added;
+- Translations updated.
+
+7.4.2
+- Patch process for Android 9 fixed;
+- Translations updated.
+
+7.4.1
+- Cyclic update fixed;
+
+7.4.0
+- Read specific file name for custom patches fixed;
+- Translations updated;
+- Bugs fixed;
+
+7.3.9
+- Fix android patches for android 9;
+- Translations updated;
+- Bugs fixed;
+
+7.3.8
+- Fix filter for android 6+;
+- Translations updated;
+- Bugs fixed;
+
+7.3.7
+- Translations updated;
+- Bugs fixed;
+
+7.3.6
+- Translations updated;
+- Bugs fixed;
+
+7.3.5
+- Added resume for download;
+- Translations updated;
+- Bugs fixed;
+
+7.3.4
+- Modded Google Play to 10.7.19 updated;
+- Translations updated;
+- Bugs fixed;
+
+7.3.3
+- Bug to android patch fixed;
+- Sort by install time fixed;
+- Translations updated;
+- Bugs fixed;
+
+7.3.2
+- Android patches for some firmwares fixed;
+- "Rescan apps" to options menu moved;
+- Translations updated;
+- Bugs fixed;
+
+7.3.0
+- Buttons "Rescan apps" and "Options menu" to bottom toolbar added;
+- Activity name for launcher icons changed (if icon from desktop removed, get new icon from apps list);
+- Split custom patches file on server;
+- Translations updated;
+- Bugs fixed;
+
+7.2.9
+- Update ads sdk for bugs fix;
+- Translations updated;
+- Bugs fixed;
+
+7.2.8
+- Modded Google Play 9.7.11 to 9.8.07 updated;
+- Multi-patch fixed;
+- Engine for custom patches fixed;
+- Translations updated.
+
+7.2.6
+- Mod Google Play fro android tv added (not tested);
+- Fix InApp emulation for some apps;
+- Bugs fixed;
+- Translations updated.
+
+7.2.5
+- Fix InApp emulation for some apps;
+- Translations updated.
+
+7.2.4
+- Modded Google Play 9.2.11 to 9.7.11 updated;
+- Support patch for InApp emulation updated;
+- Translations updated.
+
+7.2.3
+- Bug to Proxy server for Google Play fixed;
+- SQLite database table for store apps info changed;
+- Ads SDK for startapp updated;
+- Translations updated.
+
+7.2.2
+- Return back option "Save purchase for restore" for inapp emulation dialog;
+- Show system apps by default;
+- Adcel ads sdk removed;
+- Translations updated.
+
+7.2.1
+- Move Application to /system/app fixed;
+- Uninstall system apps for android api 21+ fixed.
+
+7.2.0
+- InApp emulation reworked;
+- Bug's new inapp algorithm fixed;
+- Translations updated.
+
+7.1.8
+- Install system apps reworked;
+- Try FC for some firmwares fixed;
+- Translations updated.
+
+7.1.7
+- Rework to new host for mod Google Play download;
+- FC for some firmwares fixed;
+- Translations updated.
+
+7.1.6
+- Rework to new host (Old host is down);
+- Bug's fixed;
+- Translations updated.
+
+7.1.5
+- Start process optimized;
+- Modded Google Play 9.2.11 added.
+
+7.1.4
+- Detect new apps fixed for some devices;
+- Bug's fixed;
+- Translations updated.
+
+7.1.3
+- Lag after start removed (application scanning disabled);
+- Proxy server for GP updated;
+- Bug's fixed;
+- Translations updated.
+
+7.1.2
+- Bug's fixed;
+- Translations updated.
+
+7.1.1
+- Open lpzip files for some explorers fixed;
+- Bug's fixed;
+- Translations updated.
+
+7.1.0
+- Modded Google Play 7.8.74 to InApp ver.7 updated;
+- Support patch for Inapp updated;
+- Cyclic addition of a custom patch from lpzip fixed;
+- Bug's fixed;
+- Translations updated.
+
+7.0.9
+- Modded Google Play to 8.9.24 updated;
+- InApp Billing by modded Google Play to ver.7 updated (need install new modded GP for work);
+- Support InApp Billing ver.7 for Google Play;
+- Proxy server for Google Play updated to InApp Billing ver.7;
+- Magisk Manager excluded from xposed hide list;
+- Mirror for Google Play inapp service removed (method too old and not work for modern apps);
+- AdsBlockList.txt updated;
+- Bug's fixed;
+- Translations updated.
+
+7.0.8
+- Proxy server fixed for new version Google Play;
+- Bug's fixed;
+- Translations updated.
+
+7.0.7
+- Service for ads removed (Battery drain on some devices);
+- Bug's fixed;
+- Translations updated.
+
+7.0.6
+- AdsBlockList.txt updated;
+- Bug's fixed;
+- Translations updated.
+
+7.0.5
+- New host for auto-updates added;
+- Get classes.dex for some corrupted apk files fixed;
+- Bug's fixed;
+- Translations updated.
+
+7.0.4
+- Bug's fixed;
+- Translations updated.
+
+7.0.3
+- Updating host changed (Old server will go down at 18th March 2018 - thanks MickyFoley for many years of assistance);
+- Proxy server for GP to dialog "Install modded GP" added;
+- FC for proxy server GP fixed;
+- Generate license fixed for some firmwares;
+- FC for corrupted classes.dex fixed;
+- Set delay 3 days for auto-update custom patches; 
+- Bug's fixed;
+- Translations updated.
+
+7.0.2
+- Custom patch progress dialog fixed;
+- Bug's fixed;
+- Translations updated.
+
+7.0.1
+- Set default switchers after transfer settings fixed;
+- Translations updated.
+
+7.0
+- Package name changed;
+- Dialog for install modded GP reworked(Apply android Patches before install);
+- Generate license for apps on Android 8 fixed(tnx Enyby);
+- Bugs fixed;
+- Translations updated.
